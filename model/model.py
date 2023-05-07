@@ -188,8 +188,6 @@ class SwinSTTransformer(nn.Module):
         return x
 
 
-# TODO 对模块进行重新命名，使之与论文中的一致
-# TODO 完善注释
 class STE(nn.Module):
     def __init__(
             self,
